@@ -1,0 +1,63 @@
+name: bike_observation_deck
+description: A new Flutter project.
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.3
+  page_transition: ^2.0.2
+  shared_preferences: ^2.0.7
+
+  flutter_local_notifications: ^9.3.2
+  awesome_notifications: ^0.6.21
+
+  onesignal_flutter: ^3.2.8
+  
+  geolocator: ^8.2.1
+
+  http: any
+
+  flutter_native_timezone: ^2.0.0
+  path_provider: ^2.0.4
+  responsive_framework: ^0.2.0
+  device_info: ^2.0.2
+  material_floating_search_bar: ^0.3.4
+  # state manegement
+  stacked: any
+  stacked_services: any
+  auto_route: any
+  get_it: any
+  injectable: any
+  observable_ish:
+  retrofit: any
+  logger: any
+
+  google_maps_flutter: ^2.1.5
+
+  json_annotation: any
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^1.0.0
+
+
+flutter:
+  assets:
+    - Assets/splashLogo.gif
+
+  uses-material-design: true
+
+
